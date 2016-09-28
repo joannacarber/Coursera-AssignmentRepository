@@ -1,4 +1,52 @@
 
+
+/*Styling*/
+
+*{
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+html {
+  background-image: url("mainBackground.jpg");
+  background-repeat: repeat;
+}
+
+.sectionHeading {
+  color: #7F8C8D;
+  font-size: 200%;
+}
+
+body {
+  color: #BA4A00;
+}
+
+h1 {
+  color: #34495E;
+  font-size: 300%;
+  text-align: center;
+}
+
+#section1 {
+  background-color: #FFFFFF ;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#section2 {
+  background-color: #E8F6F3;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#section3 {
+  background-color: #D0ECE7;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 /*Basic framework for Module 2 Assignment*/
 /*Desktop Sites Only*/
 .row{
@@ -134,54 +182,5 @@
   .col-mob-12 {
     width: 100%;
   }
-}
-
-/*Styling*/
-
-*{
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Tahoma, Geneva, sans-serif;
-  background-image: url("mainBackground.jpg");
-  background-repeat: repeat;
-}
-
-.sectionHeading {
-	color: #7F8C8D;
-	font-size: 200%;
-}
-
-body {
-  color: #BA4A00;
-}
-
-h1 {
-  color: #34495E;
-  font-size: 300%;
-  text-align: center;
-}
-
-#section1 {
-  background-color: #FFFFFF ;
-  height: 300px;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-}
-#section2 {
-  background-color: #E8F6F3;
-  height: 300px;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-}
-#section3 {
-  background-color: #D0ECE7;
-  height: 300px;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
