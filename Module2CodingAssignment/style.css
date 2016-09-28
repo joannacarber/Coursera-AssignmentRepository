@@ -1,10 +1,14 @@
 
 /*Basic framework for Module 2 Assignment*/
 /*Desktop Sites Only*/
+.row{
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   .col-dsk-1, .col-dsk-2, .col-dsk-3, .col-dsk-4, .col-dsk-5, .col-dsk-6, .col-dsk-7, .col-dsk-8, .col-dsk-9, .col-dsk-10, .col-dsk-11, .col-dsk-12{
   	float:left;
-  	border: 1px solid 000000;
+  	border: 1px solid black;
   }
   .col-dsk-1 {
   	width: 8.33%;
@@ -48,7 +52,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
     float: left;
-    border: 1px 000000;
+    border: 1px solid black;
   }
   .col-tb-1 {
     width: 8.33%;
@@ -92,7 +96,7 @@
 @media (max-width: 767px) {
   .col-mob-1, .col-mob-2, .col-mob-3, .col-mob-4, .col-mob-5, .col-mob-6, .col-mob-7, .col-mob-8, .col-mob-9, .col-mob-10, .col-mob-11, .col-mob-12 {
     float: left;
-    border: 1px 000000;
+    border: 1px solid black;
   }
   .col-mob-1 {
     width: 8.33%;
@@ -132,7 +136,12 @@
   }
 }
 
-/*Text Styling*/
+/*Styling*/
+
+*{
+  box-sizing: border-box;
+}
+
 html {
   font-family: Tahoma, Geneva, sans-serif;
   background-image: url("mainBackground.jpg");
@@ -140,11 +149,12 @@ html {
 }
 
 .sectionHeading {
-	color: #FF0000;
+	color: #7F8C8D;
 	font-size: 200%;
-  position: relative;
-  top: 50px;
-  left: 50px;
+}
+
+body {
+  color: #BA4A00;
 }
 
 h1 {
@@ -152,3 +162,26 @@ h1 {
   font-size: 300%;
   text-align: center;
 }
+
+#section1 {
+  background-color: #FFFFFF ;
+  height: 300px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#section2 {
+  background-color: #E8F6F3;
+  height: 300px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#section3 {
+  background-color: #D0ECE7;
+  height: 300px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
