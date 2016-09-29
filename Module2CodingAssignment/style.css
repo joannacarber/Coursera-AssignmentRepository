@@ -12,9 +12,9 @@ html {
   background-repeat: repeat;
 }
 
-.sectionHeading {
+h2 {
   color: #7F8C8D;
-  font-size: 200%;
+  font-size: 125%;
 }
 
 body {
@@ -29,21 +29,12 @@ h1 {
 
 #section1 {
   background-color: #FFFFFF ;
-  height: 300px;
-  margin-right: auto;
-  margin-left: auto;
 }
 #section2 {
   background-color: #E8F6F3;
-  height: 300px;
-  margin-right: auto;
-  margin-left: auto;
 }
 #section3 {
   background-color: #D0ECE7;
-  height: 300px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 
