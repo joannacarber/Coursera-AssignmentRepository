@@ -12,19 +12,54 @@ html {
   background-repeat: repeat;
 }
 
-h2 {
-  color: #7F8C8D;
-  font-size: 125%;
-}
-
 body {
   color: #BA4A00;
+  margin: 0;
 }
 
 h1 {
   color: #34495E;
-  font-size: 300%;
+  font-size: 175%;
   text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+h2 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 125%;
+    width: 125px;
+    text-align: center;
+    margin-top: -13px;
+    position: absolute;
+    right: -1px;
+    top: 12px;
+    color: grey;
+    background-color: #A2D9CE;
+    border-bottom-left-radius: 1.25em;
+}
+
+.section {
+    border: 1px solid black;
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-top: 35px;
+    overflow: hidden;
+} 
+
+#MornBG {
+  background-color: #D0ECE7;
+}
+#AftBG {
+  background-color: #FFFFFF;
+}
+#EveBG {
+  background-color: #E8F6F3;
 }
 
 #section1 {
@@ -37,7 +72,6 @@ h1 {
   background-color: #D0ECE7;
 }
 
-
 /*Basic framework for Module 2 Assignment*/
 /*Desktop Sites Only*/
 .row{
@@ -47,7 +81,6 @@ h1 {
 @media (min-width: 992px) {
   .col-dsk-1, .col-dsk-2, .col-dsk-3, .col-dsk-4, .col-dsk-5, .col-dsk-6, .col-dsk-7, .col-dsk-8, .col-dsk-9, .col-dsk-10, .col-dsk-11, .col-dsk-12{
   	float:left;
-  	border: 1px solid black;
   }
   .col-dsk-1 {
   	width: 8.33%;
@@ -91,7 +124,6 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-tb-1 {
     width: 8.33%;
@@ -135,7 +167,6 @@ h1 {
 @media (max-width: 767px) {
   .col-mob-1, .col-mob-2, .col-mob-3, .col-mob-4, .col-mob-5, .col-mob-6, .col-mob-7, .col-mob-8, .col-mob-9, .col-mob-10, .col-mob-11, .col-mob-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-mob-1 {
     width: 8.33%;
